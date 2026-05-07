@@ -1,11 +1,21 @@
 # HPS-FPGA Based MD5 Decryption SoC
 
 ![System Architecture](architecture.png)
+![Hardware Setup](IMG_8205.jpg)
 
 ## Project Overview
 This project implements a high-performance **MD5 Decryption System** on the **Terasic DE1-SoC** platform. It leverages the tight integration between the **Hard Processor System (HPS)** (dual-core ARM Cortex-A9) and the **FPGA Fabric** (Intel/Altera Cyclone V) to accelerate MD5 hashing operations.
 
 The system is designed to perform MD5 hashing in hardware, significantly outperforming software-only implementations by utilizing parallel processing units within the FPGA.
+
+## Hardware Implementation
+The physical system is built on the **Terasic DE1-SoC Development Board**, featuring an Altera/Intel Cyclone V SoC.
+
+- **Mounted Setup**: The board is mounted on a custom prototyping base for stability during testing.
+- **Peripheral Usage**:
+    - **7-Segment Displays**: Used for status monitoring.
+    - **HPS-FPGA Bridge**: Enables the ARM Cortex-A9 to interact with the MD5 hardware blocks.
+    - **USB Connectivity**: Supports debugging and data transfer.
 
 ## System Architecture
 
