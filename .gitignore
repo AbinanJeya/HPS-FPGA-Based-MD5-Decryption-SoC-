@@ -1,0 +1,37 @@
+# Quartus Prime/ISE/Vivado temporary files
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+*.rpt
+*.summary
+*.jdi
+*.pin
+*.pof
+*.sof
+*.done
+*.qws
+*.bak
+*.orig
+*.swp
+*.bak*
+*~
+
+# HPS/Software temporary files
+*.o
+*.d
+*.elf
+*.map
+.metadata/
+RemoteSystemsTempFiles/
+software.zip
+obj/
+bin/
+
+# OS/IDEs
+.DS_Store
+.vscode/
+.idea/
+repo_tmp/
