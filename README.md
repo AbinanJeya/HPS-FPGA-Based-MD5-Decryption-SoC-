@@ -2,6 +2,16 @@
 
 ![System Architecture](architecture.png)
 ![Hardware Setup](IMG_8205.jpg)
+*Figure 1: Physical implementation on the DE1-SoC board.*
+
+### Hardware Components Legend:
+*   **A: Cyclone V SoC** - The heart of the system, containing the Dual-core ARM Cortex-A9 (HPS) and the FPGA fabric.
+*   **B: 7-Segment Displays** - Used to display MD5 status and hashing results.
+*   **C: USB Blaster II** - Connection for programming the FPGA and debugging.
+*   **D: HPS USB Port** - Used for Linux console access and data transfer.
+*   **E: Push Buttons & Switches** - Manual controls for resetting or triggering MD5 operations.
+*   **F: 12V DC Power** - Main power supply for the development board.
+*   **G: Prototyping Mount** - Custom wooden and metal framing for secure lab testing.
 
 ## Project Overview
 This project implements a high-performance **MD5 Decryption System** on the **Terasic DE1-SoC** platform. It leverages the tight integration between the **Hard Processor System (HPS)** (dual-core ARM Cortex-A9) and the **FPGA Fabric** (Intel/Altera Cyclone V) to accelerate MD5 hashing operations.
